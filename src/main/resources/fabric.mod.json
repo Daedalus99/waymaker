@@ -18,6 +18,9 @@
 		"main": [
 			"com.daedalus.waymaker.Waymaker"
 		],
+		"client": [
+			"com.daedalus.waymaker.client.WaymakerClient"
+		],
 		"fabric-datagen": [
 			"com.daedalus.waymaker.WaymakerDataGenerator"
 		]
