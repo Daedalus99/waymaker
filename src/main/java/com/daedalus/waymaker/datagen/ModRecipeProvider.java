@@ -35,6 +35,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.ENDER_EYE), has(Items.ENDER_EYE))
                         .group("waymaker_recipes")
                         .save(output);
+
+                // Elemental Compass — cross pattern:
+                //   Sky (N), Sea (W), Sun (E), Mountain (S)
+                //   Sun rises in the east; sea stretches to the west
+                shaped(RecipeCategory.TOOLS, ModItems.ELEMENTAL_COMPASS)
+                        .pattern(" n ")
+                        .pattern("wCe")
+                        .pattern(" s ")
+                        .define('n', ModItems.HEART_OF_THE_SKY)
+                        .define('C', Items.RECOVERY_COMPASS)
+                        .define('w', Items.HEART_OF_THE_SEA)
+                        .define('e', ModItems.HEART_OF_THE_SUN)
+                        .define('s', ModItems.HEART_OF_THE_MOUNTAIN)
+                        .unlockedBy(getHasName(Items.RECOVERY_COMPASS), has(Items.RECOVERY_COMPASS))
+                        .group("waymaker_recipes")
+                        .save(output);
             }
         };
     }

@@ -1,8 +1,10 @@
 // 26.2	-999999999-01-01T00:00:00	Waymaker/Model Definitions
+8ee3a4b1f29074efcc0f099aed868a979223847f assets/waymaker/items/elemental_compass.json
 bc6b90bc751d2283335c05bc06ff7b89d3c6af66 assets/waymaker/items/heart_of_the_mountain.json
 b4921f870a79b315e719dc006b714ec1adc62dd8 assets/waymaker/items/heart_of_the_sky.json
 9646e82515b9078e25e88728c303ff8ae6e0bd50 assets/waymaker/items/heart_of_the_sun.json
 e7460403d4fdaa3f8b355656e5137d3addea76d9 assets/waymaker/items/waymakers_relic.json
+38b752d960d937a9440707a875c756ccc70f99aa assets/waymaker/models/item/elemental_compass.json
 4c36b95752de365f0db9112b116c1974bf2a2e43 assets/waymaker/models/item/heart_of_the_mountain.json
 b5d791b3da2e15f881d3bbdc908b41e724bd0474 assets/waymaker/models/item/heart_of_the_sky.json
 9a0f2abaeb5324411f2114691e2382625041d8ed assets/waymaker/models/item/heart_of_the_sun.json

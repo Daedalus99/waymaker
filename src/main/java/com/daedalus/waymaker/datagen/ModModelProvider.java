@@ -23,5 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerators.generateFlatItem(ModItems.HEART_OF_THE_SKY, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.HEART_OF_THE_MOUNTAIN, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.HEART_OF_THE_SUN, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.ELEMENTAL_COMPASS, ModelTemplates.FLAT_ITEM);
     }
 }

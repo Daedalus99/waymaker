@@ -31,6 +31,11 @@ public class ModItems {
             Item::new,
             new Item.Properties());
 
+    public static final Item ELEMENTAL_COMPASS = register(
+            ModItemIds.ELEMENTAL_COMPASS,
+            Item::new,
+            new Item.Properties());
+
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         // Create the item instance.
         Item item = itemFactory.apply(settings.setId(itemKey));
@@ -49,7 +54,10 @@ public class ModItems {
 
     public static void initialize() {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES)
-                .register((creativeTab) -> creativeTab.accept(ModItems.WAYMAKERS_RELIC));
+                .register((creativeTab) -> {
+                    creativeTab.accept(ModItems.WAYMAKERS_RELIC);
+                    creativeTab.accept(ModItems.ELEMENTAL_COMPASS);
+                });
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
                 .register((creativeTab) -> {

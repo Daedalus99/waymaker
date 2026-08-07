@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "waymaker_recipes",
+  "key": {
+    "C": "minecraft:recovery_compass",
+    "e": "waymaker:heart_of_the_sun",
+    "n": "waymaker:heart_of_the_sky",
+    "s": "waymaker:heart_of_the_mountain",
+    "w": "minecraft:heart_of_the_sea"
+  },
+  "pattern": [
+    " n ",
+    "wCe",
+    " s "
+  ],
+  "result": {
+    "id": "waymaker:elemental_compass"
+  }
+}

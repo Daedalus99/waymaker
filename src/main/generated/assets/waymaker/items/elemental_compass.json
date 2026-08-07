@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "waymaker:item/elemental_compass"
+  }
+}
