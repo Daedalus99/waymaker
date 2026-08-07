@@ -8,5 +8,6 @@ public class WaymakerDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		var pack = fabricDataGenerator.createPack();
 		pack.addProvider(com.daedalus.waymaker.datagen.ModModelProvider::new);
+		pack.addProvider(com.daedalus.waymaker.datagen.ModRecipeProvider::new);
 	}
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "waymaker_recipes",
+  "key": {
+    "E": "minecraft:ender_eye",
+    "e": "minecraft:echo_shard",
+    "s": "minecraft:nether_star"
+  },
+  "pattern": [
+    "eEe",
+    "EsE",
+    "eEe"
+  ],
+  "result": {
+    "id": "waymaker:waymakers_relic"
+  }
+}
