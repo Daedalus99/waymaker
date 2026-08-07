@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators){
         itemModelGenerators.generateFlatItem(ModItems.WAYMAKERS_RELIC, ModelTemplates.FLAT_ITEM);
-
+        itemModelGenerators.generateFlatItem(ModItems.HEART_OF_THE_SKY, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.HEART_OF_THE_MOUNTAIN, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.HEART_OF_THE_SUN, ModelTemplates.FLAT_ITEM);
     }
 }

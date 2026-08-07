@@ -8,6 +8,9 @@ import net.minecraft.world.item.Item;
 
 public class ModItemIds {
     public static final ResourceKey<Item> WAYMAKERS_RELIC = create("waymakers_relic");
+    public static final ResourceKey<Item> HEART_OF_THE_SKY = create("heart_of_the_sky");
+    public static final ResourceKey<Item> HEART_OF_THE_MOUNTAIN = create("heart_of_the_mountain");
+    public static final ResourceKey<Item> HEART_OF_THE_SUN = create("heart_of_the_sun");
 
 
     public static ResourceKey<Item> create(String name){
