@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "waymaker:item/elemental_compass"
+    "layer0": "waymaker:item/elemental_compass_7"
   }
 }

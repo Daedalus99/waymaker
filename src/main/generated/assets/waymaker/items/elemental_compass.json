@@ -1,6 +1,73 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "waymaker:item/elemental_compass"
+    "type": "minecraft:range_dispatch",
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_4"
+        },
+        "threshold": 0.0
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_5"
+        },
+        "threshold": 0.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_6"
+        },
+        "threshold": 1.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_7"
+        },
+        "threshold": 2.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_0"
+        },
+        "threshold": 3.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_1"
+        },
+        "threshold": 4.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_2"
+        },
+        "threshold": 5.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_3"
+        },
+        "threshold": 6.5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "waymaker:item/elemental_compass_4"
+        },
+        "threshold": 7.5
+      }
+    ],
+    "property": "minecraft:compass",
+    "scale": 8.0,
+    "target": "spawn"
   }
 }
