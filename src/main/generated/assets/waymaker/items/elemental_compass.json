@@ -68,6 +68,6 @@
     ],
     "property": "minecraft:compass",
     "scale": 8.0,
-    "target": "spawn"
+    "target": "lodestone"
   }
 }

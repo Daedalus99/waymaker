@@ -4,8 +4,11 @@ import com.daedalus.waymaker.Waymaker;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.GlobalPos;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.world.item.component.LodestoneTracker;
 import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
@@ -99,9 +102,16 @@ public class CompassNetwork {
                         ServerPlayNetworking.send(player,
                                 new BiomeResultPayload(payload.biomeKey(), false, 0, 0));
                     } else {
+                        BlockPos target = result.getFirst();
+                        // Write the target into the held compass as a LodestoneTracker so CompassAngle(LODESTONE) can read it
+                        var heldItem = player.getMainHandItem();
+                        if (!heldItem.isEmpty()) {
+                            GlobalPos globalPos = GlobalPos.of(level.dimension(), target);
+                            heldItem.set(DataComponents.LODESTONE_TRACKER, new LodestoneTracker(java.util.Optional.of(globalPos), false));
+                        }
                         ServerPlayNetworking.send(player,
                                 new BiomeResultPayload(payload.biomeKey(), true,
-                                        result.getFirst().getX(), result.getFirst().getZ()));
+                                        target.getX(), target.getZ()));
                     }
                 })
         );

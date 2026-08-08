@@ -60,6 +60,6 @@ public class ModModelProvider extends FabricModelProvider {
     public final void generateElementalCompassItem(final ItemModelGenerators itemModelGenerators, final Item compass) {
         List<RangeSelectItemModel.Entry> overrides = createEightFrameCompassModels(itemModelGenerators, compass);
         itemModelGenerators.itemModelOutput
-                .accept(compass, ItemModelUtils.rangeSelect(new CompassAngle(true, CompassAngleState.CompassTarget.SPAWN), 8.0F, overrides));
+                .accept(compass, ItemModelUtils.rangeSelect(new CompassAngle(true, CompassAngleState.CompassTarget.LODESTONE), 8.0F, overrides));
     }
 }
