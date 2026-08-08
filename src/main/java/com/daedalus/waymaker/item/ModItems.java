@@ -13,7 +13,7 @@ import java.util.function.Function;
 public class ModItems {
     public static final Item WAYMAKERS_RELIC = register(
             ModItemIds.WAYMAKERS_RELIC,
-            Item::new,
+            WaymakersRelicItem::new,
             new Item.Properties().stacksTo(1));
 
     public static final Item HEART_OF_THE_SKY = register(
