@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "waymaker_recipes",
+  "key": {
+    "M": "minecraft:magma_block",
+    "b": "minecraft:blaze_powder",
+    "c": "minecraft:fire_charge"
+  },
+  "pattern": [
+    "bcb",
+    "cMc",
+    "bcb"
+  ],
+  "result": {
+    "id": "waymaker:heart_of_the_sun"
+  }
+}

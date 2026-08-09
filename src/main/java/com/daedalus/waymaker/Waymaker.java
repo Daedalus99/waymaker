@@ -21,6 +21,7 @@ public class Waymaker implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Waymaker initializing!");
 		ModItems.registerModItems();
+		com.daedalus.waymaker.recipe.ModRecipes.register();
 		registerLootTableModifications();
 		com.daedalus.waymaker.network.CompassNetwork.registerPayloads();
 		com.daedalus.waymaker.network.CompassNetwork.registerServerside();

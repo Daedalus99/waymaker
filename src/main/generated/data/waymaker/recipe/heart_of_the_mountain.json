@@ -1,0 +1,15 @@
+{
+  "type": "waymaker:center_locked_shapeless",
+  "center": "minecraft:deepslate",
+  "result": "waymaker:heart_of_the_mountain",
+  "surroundings": [
+    "minecraft:raw_iron",
+    "minecraft:diamond",
+    "minecraft:raw_copper",
+    "minecraft:lapis_lazuli",
+    "minecraft:amethyst_shard",
+    "minecraft:emerald",
+    "minecraft:coal",
+    "minecraft:raw_gold"
+  ]
+}

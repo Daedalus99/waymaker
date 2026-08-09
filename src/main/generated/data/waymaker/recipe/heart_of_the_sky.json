@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "waymaker_recipes",
+  "key": {
+    "W": "minecraft:wind_charge",
+    "f": "minecraft:feather",
+    "p": "minecraft:phantom_membrane"
+  },
+  "pattern": [
+    "pfp",
+    "fWf",
+    "pfp"
+  ],
+  "result": {
+    "id": "waymaker:heart_of_the_sky"
+  }
+}

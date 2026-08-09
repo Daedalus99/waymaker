@@ -34,7 +34,7 @@ public class ModItems {
     public static final Item ELEMENTAL_COMPASS = register(
             ModItemIds.ELEMENTAL_COMPASS,
             ElementalCompassItem::new,
-            new Item.Properties().stacksTo(1));
+            new Item.Properties());
 
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         // Create the item instance.

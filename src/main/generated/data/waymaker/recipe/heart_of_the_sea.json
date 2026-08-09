@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "waymaker_recipes",
+  "key": {
+    "I": "minecraft:blue_ice",
+    "c": "minecraft:prismarine_crystals",
+    "s": "minecraft:prismarine_shard"
+  },
+  "pattern": [
+    "csc",
+    "sIs",
+    "csc"
+  ],
+  "result": {
+    "id": "minecraft:heart_of_the_sea"
+  }
+}

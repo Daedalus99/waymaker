@@ -1,5 +1,13 @@
 // 26.2	-999999999-01-01T00:00:00	Waymaker/Waymaker Recipes
+d7e01a3d1ade8182cc5f23bb3dee6b924de55692 data/waymaker/advancement/recipes/misc/heart_of_the_mountain.json
+1c7becdcbe1c12a6d758b8c53d19925df89420a6 data/waymaker/advancement/recipes/misc/heart_of_the_sea.json
+db163ec488f78293dfcde5633d821c9dd3a9ccf9 data/waymaker/advancement/recipes/misc/heart_of_the_sky.json
+21c92a3a0b4cdb8f5b61930962d28d8c2e023a07 data/waymaker/advancement/recipes/misc/heart_of_the_sun.json
 2c2b5e615627cd63c04aad2ea83143923db781ce data/waymaker/advancement/recipes/tools/elemental_compass.json
 edbc01312e8485cc5d886eb7f15482f57e413793 data/waymaker/advancement/recipes/tools/waymakers_relic.json
 9dc8bdfe52989b9cbdda9eb665daf192d8d77da7 data/waymaker/recipe/elemental_compass.json
+a3d72d0a1abdf1fc79b81a68276d7449b590a807 data/waymaker/recipe/heart_of_the_mountain.json
+bdf0f3e208cc618b6d7c2095263db0bbe7d1e218 data/waymaker/recipe/heart_of_the_sea.json
+d0dae57561a9444037e88b554f7406909af2bad2 data/waymaker/recipe/heart_of_the_sky.json
+13ff592d9af12fa8c46bc172d234d0a6ce595056 data/waymaker/recipe/heart_of_the_sun.json
 88c03f1ee390e3627ebb911471d757cd44e0b742 data/waymaker/recipe/waymakers_relic.json
